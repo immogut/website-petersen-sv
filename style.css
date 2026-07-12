@@ -450,9 +450,7 @@ h2 { font-size: clamp(1.5rem, 3vw, 2.1rem); line-height: 1.25; color: var(--gree
 /* ---------- Footer ---------- */
 footer { background: var(--green-900); color: #cfe0d5; }
 
-.footer-sky { background: var(--green-900); }
-
-.footer-sky img { width: 100%; max-height: 150px; object-fit: contain; object-position: bottom; opacity: .35; filter: invert(1); }
+.footer-sky { height: 130px; background: url("assets/skyline.png") repeat-x bottom center / auto 130px; opacity: .35; filter: invert(1); }
 
 .footer-inner {
   display: flex;
